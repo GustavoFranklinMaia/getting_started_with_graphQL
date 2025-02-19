@@ -1,0 +1,7 @@
+mutation {
+  criarUsuario(nome: "simão", idade: 28, cidade: "São Paulo") {
+    nome
+    idade
+    cidade
+  }
+}
